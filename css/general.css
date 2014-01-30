@@ -1,5 +1,5 @@
 html {
-    font-family: Enriqueta, serif;
+    font-family: Baskerville, serif;
     color: #8B4513;
 }
 
@@ -8,27 +8,22 @@ body {
 }
 
 h1 {
-    font-family: Geneva, sans-serif; 
+    font-family: Trebuchet MS, sans-serif; 
     font-weight: Bolder; 
     font-size: 3rem;
     text-shadow: #FF8C00 2px 2px; 
-    color: #8B4513; 
+    line-height: 3rem; 
 }
 
 h2 {
-    font-family: Geneva, sans-serif; 
-    font-weight: bold; 
-    color: #8B4513; 
+    font-family: Trebuchet MS, sans-serif; 
+    font-weight: bolder; 
 }
 
 h4 {
-    font-family: Geneva, sans-serif; 
+    font-family: Trebuchet MS, sans-serif; 
     font-weight: bold; 
     color: #8B4513; 
-}
-
-p a {
-    background-color: #FFF; 
 }
 
 h1 {
@@ -36,15 +31,20 @@ h1 {
     border-bottom: 5px solid #8B4513; 
 } 
 
+ul { 
+    color: #FF8C00;
+    list-style-type: square;
+    line-height: 1.8rem;
+    border: 3px dotted;
+}
+
 ol {
+    line-height: 1.2rem;
     border: 3px dotted;
 } 
 
-ul { 
-    color: #FF8C00
+p a {
+    background-color: #FFF; 
 }
 
 
-    
-    
-    
