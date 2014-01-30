@@ -13,6 +13,8 @@ h1 {
     font-size: 3rem;
     text-shadow: #FF8C00 2px 2px; 
     line-height: 3rem; 
+    border-top: 7px solid #8B4513;
+    border-bottom: 5px dashed #8B4513; 
 }
 
 h2 {
@@ -26,11 +28,6 @@ h4 {
     color: #8B4513; 
 }
 
-h1 {
-    border-top: 5px solid #8B4513;
-    border-bottom: 5px solid #8B4513; 
-} 
-
 ul { 
     color: #FF8C00;
     list-style-type: square;
@@ -43,8 +40,7 @@ ol {
     border: 3px dotted;
 } 
 
-p a {
-    background-color: #FFF; 
+p:last-child {
+    border: 2px solid;
+    background-color: #FFF;
 }
-
-
